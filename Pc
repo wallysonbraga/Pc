@@ -1,0 +1,18 @@
+ push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar placa de vídeo
+        run: |
+          echo "===================================="
+          echo "   PC Virtual com RTX 4090 🎮"
+          echo "===================================="
+          echo "Placa: NVIDIA GeForce RTX 4090"
+          echo "Memória: 24GB GDDR6X"
+          echo "Status: Ativada ✅"
+          echo "Obs: Esta é uma simulação de texto"
+          echo "===================================="
